@@ -1,0 +1,25 @@
+{
+    "name": "daniel-mannheimer/amazon-mws-lib",
+    "description": "bundles anything from https://developer.amazonservices.de/phpclients except https://github.com/amzn/amazon-pay-sdk-php (2019-09-01)",
+    "type": "library",
+    "licence": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Daniel Mannheimer",
+            "email": "dm@actionmix.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.2.8",
+        "ext-curl": ">=7.18.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "include-path": [
+        "src/"
+    ]
+}
